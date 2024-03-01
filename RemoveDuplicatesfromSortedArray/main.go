@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func removeDuplicates(nums []int) int {
+	fmt.Println("Input :", nums)
 	lp := 1 // Left Pointer
 
 	// loop through each item
